@@ -4,11 +4,14 @@ An open and customized version of the Spotify desktop client. OS X only for now.
 # Features
 
  **Functions**
-- Developer mode enabled
+- Developer mode enabled. Activates Fn+F5 reload shortcut.
 - Employee features enabled (Search proxy, development apps)
 
 **Interface**
 - Removed unnecessary "Devices Available" label from Player connect button.
+
+# Installation
+Download the app from the [releases page](https://github.com/Colton/SpotifyPlus/releases/latest).
 
 # Development
 1. ```$ git clone https://github.com/Colton/SpotifyPlus```
