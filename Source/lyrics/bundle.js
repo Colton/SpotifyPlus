@@ -8820,7 +8820,7 @@ var HandlebarsCompiler = require('hbsfy/runtime');
 module.exports = HandlebarsCompiler.template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  
+
 
 
   return "<p class=\"index0\"></p>\n<p class=\"index1\"></p>\n<p class=\"index2\"></p>\n<p class=\"index3\"></p>\n<p class=\"index4\"></p>\n";
@@ -8873,7 +8873,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   var buffer = "", stack1, helper, functionType="function", self=this, escapeExpression=this.escapeExpression;
 
 function program1(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n    <p>";
   stack1 = (typeof depth0 === functionType ? depth0.apply(depth0) : depth0);
@@ -8929,7 +8929,7 @@ helpers = this.merge(helpers, Handlebars.helpers); partials = this.merge(partial
   var buffer = "", stack1, helper, functionType="function", escapeExpression=this.escapeExpression, self=this;
 
 function program1(depth0,data) {
-  
+
   var buffer = "", stack1;
   buffer += "\n            <p class=\"item\">"
     + escapeExpression(((stack1 = (depth0 && depth0.name)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
@@ -24089,7 +24089,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   var buffer = "", stack1, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, functionType="function", self=this;
 
 function program1(depth0,data) {
-  
+
   var buffer = "", stack1, helper, options;
   buffer += "\n        <h1 class=\"hdr-l\">"
     + escapeExpression((helper = helpers.loc || (depth0 && depth0.loc),options={hash:{},data:data},helper ? helper.call(depth0, "ErrorTitle", options) : helperMissing.call(depth0, "loc", "ErrorTitle", options)))
@@ -24101,7 +24101,7 @@ function program1(depth0,data) {
   }
 
 function program3(depth0,data) {
-  
+
   var buffer = "", stack1, helper;
   buffer += "\n        <h1 class=\"hdr-l\">";
   if (helper = helpers.errorTitle) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -24116,7 +24116,7 @@ function program3(depth0,data) {
   }
 
 function program5(depth0,data) {
-  
+
   var buffer = "", stack1, helper;
   buffer += "\n        <a class=\"button button-white\" href=\"";
   if (helper = helpers.errorEscapeUrl) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -24131,7 +24131,7 @@ function program5(depth0,data) {
   }
 
 function program7(depth0,data) {
-  
+
   var buffer = "", stack1, helper, options;
   buffer += "\n        <h1 class=\"hdr-l\">"
     + escapeExpression((helper = helpers.loc || (depth0 && depth0.loc),options={hash:{},data:data},helper ? helper.call(depth0, "OfflineTitle", options) : helperMissing.call(depth0, "loc", "OfflineTitle", options)))
@@ -24143,7 +24143,7 @@ function program7(depth0,data) {
   }
 
 function program9(depth0,data) {
-  
+
   var buffer = "", stack1, helper;
   buffer += "\n        <h1 class=\"hdr-l\">";
   if (helper = helpers.offlineTitle) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -24158,7 +24158,7 @@ function program9(depth0,data) {
   }
 
 function program11(depth0,data) {
-  
+
   var buffer = "", stack1, helper;
   buffer += "\n        <a class=\"button button-white\" href=\"";
   if (helper = helpers.offlineEscapeUrl) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -24173,7 +24173,7 @@ function program11(depth0,data) {
   }
 
 function program13(depth0,data) {
-  
+
   var buffer = "", stack1, helper;
   buffer += "\n  <div class=\"error-version text-muted\">";
   if (helper = helpers.errorVersion) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -24211,37 +24211,37 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   var buffer = "", stack1, helper, options, functionType="function", escapeExpression=this.escapeExpression, self=this, helperMissing=helpers.helperMissing;
 
 function program1(depth0,data) {
-  
-  
+
+
   return "true";
   }
 
 function program3(depth0,data) {
-  
-  
+
+
   return "false";
   }
 
 function program5(depth0,data) {
-  
-  
+
+
   return " enabled";
   }
 
 function program7(depth0,data) {
-  
-  
+
+
   return " disabled";
   }
 
 function program9(depth0,data) {
-  
-  
+
+
   return "aria-disabled=\"true\"";
   }
 
 function program11(depth0,data) {
-  
+
   var buffer = "", stack1, helper;
   buffer += "data-slider=\"";
   if (helper = helpers.id) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -24252,13 +24252,13 @@ function program11(depth0,data) {
   }
 
 function program13(depth0,data) {
-  
-  
+
+
   return "data-slider";
   }
 
 function program15(depth0,data) {
-  
+
   var buffer = "", stack1, helper;
   buffer += "aria-labelledby=\"";
   if (helper = helpers.labelId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -24269,7 +24269,7 @@ function program15(depth0,data) {
   }
 
 function program17(depth0,data) {
-  
+
   var buffer = "", stack1, helper;
   buffer += "data-uri=\"";
   if (helper = helpers.uri) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -24280,7 +24280,7 @@ function program17(depth0,data) {
   }
 
 function program19(depth0,data) {
-  
+
   var buffer = "", stack1, helper;
   buffer += "data-slider-property=\"";
   if (helper = helpers.property) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -24291,7 +24291,7 @@ function program19(depth0,data) {
   }
 
 function program21(depth0,data) {
-  
+
   var buffer = "", stack1, helper;
   buffer += "data-slider-allowed-property=\"";
   if (helper = helpers.allowedProperty) { stack1 = helper.call(depth0, {hash:{},data:data}); }
@@ -40096,8 +40096,8 @@ function registerDefaultHelpers(instance) {
       } else {
         for(var key in context) {
           if(context.hasOwnProperty(key)) {
-            if(data) { 
-              data.key = key; 
+            if(data) {
+              data.key = key;
               data.index = i;
               data.first = (i === 0);
             }
@@ -45224,7 +45224,7 @@ EventEmitter.prototype.emit = function(type, opt_params) {
 /**
  * Emits an event on the emitter.
  *
- * This method invokes all the added event listeners of the `type` of the 
+ * This method invokes all the added event listeners of the `type` of the
  * `event` provided in the order they were added, passing in the `event` as an
  * argument.
  *

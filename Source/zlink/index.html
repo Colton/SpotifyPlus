@@ -744,7 +744,7 @@
         <span id="lyrics-button"
           data-bind="
           css: {
-            hidden: !lyricsEnabled()
+            hidden: !lyricsAppEnabled
           },
           text: LYRICS_LABEL, click: openLyrics
           "></span>
@@ -821,9 +821,6 @@
                   'aria-label': connectLabelOrEmpty
                 }" name="connect" >
             <span id="devices-icon" data-bind="css: connectIcon()">
-            </span>
-            <span id="devices-label"
-              data-bind="text: connectText(), css: connectTextStyle()">
             </span>
           </div>
         </div>
