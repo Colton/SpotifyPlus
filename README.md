@@ -10,6 +10,8 @@ An open and customized version of the Spotify desktop client. OS X only for now.
 **Interface**
 - Removed unnecessary "Devices Available" label from Player connect button.
 
+***Feel free to submit any features you come up with :)***
+
 # Installation
 Download the app from the [releases page](https://github.com/Colton/SpotifyPlus/releases/latest).
 
