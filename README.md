@@ -1,5 +1,5 @@
 # SpotifyPlus
-An open and customized version of the Spotify desktop client. OS X only for now.
+An open and hackable version of the Spotify desktop client. OS X only for now.
 
 # Features
 
